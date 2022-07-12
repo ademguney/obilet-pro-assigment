@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mb-3 {
+    text-align: left;
+}
+
+    .mb-3 label {
+        color: #9d9d9c;
+        font-weight: bold;
+    }

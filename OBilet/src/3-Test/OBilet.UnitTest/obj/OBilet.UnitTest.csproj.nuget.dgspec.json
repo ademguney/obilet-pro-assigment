@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\3-Test\\OBilet.UnitTest\\OBilet.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\OBilet.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\OBilet.Web.csproj",
+        "projectName": "OBilet.Web",
+        "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\OBilet.Web.csproj",
+        "packagesPath": "C:\\Users\\Guney\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZerDevOps/promena_solutions/_packaging/Zer.Framework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\OBilet.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\OBilet.Core.csproj",
+        "projectName": "OBilet.Core",
+        "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\OBilet.Core.csproj",
+        "packagesPath": "C:\\Users\\Guney\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZerDevOps/promena_solutions/_packaging/Zer.Framework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj",
+        "projectName": "OBilet.Dto",
+        "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj",
+        "packagesPath": "C:\\Users\\Guney\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZerDevOps/promena_solutions/_packaging/Zer.Framework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj",
+        "projectName": "OBilet.Service",
+        "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj",
+        "packagesPath": "C:\\Users\\Guney\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZerDevOps/promena_solutions/_packaging/Zer.Framework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\OBilet.Core.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Core\\OBilet.Core.csproj"
+              },
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\3-Test\\OBilet.UnitTest\\OBilet.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\3-Test\\OBilet.UnitTest\\OBilet.UnitTest.csproj",
+        "projectName": "OBilet.UnitTest",
+        "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\3-Test\\OBilet.UnitTest\\OBilet.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Guney\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\3-Test\\OBilet.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZerDevOps/promena_solutions/_packaging/Zer.Framework/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\OBilet.Web.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\1-Presentations\\OBilet.Web\\OBilet.Web.csproj"
+              },
+              "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj": {
+                "projectPath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Services\\OBilet.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Journeys";
+    
+}
+
+@model OBilet.Dto.IO.GetBusJourneys.Response.GetBusJourneysResponse
+<br />
+
+
+<main>
+    <div class="container">
+        @foreach (var item in Model.Data.OrderBy(x => x.Journey.Departure))
+        {
+            <div class="card  shadow p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <h4 class="card-title text-center">@item.OriginLocation <i class="fa-solid fa-arrow-right"></i> @item.DestinationLocation</h4>
+
+                    <table class="table table-borderless text-center">
+                        <tr>
+                            <td>
+                                <img src="https://s3.eu-central-1.amazonaws.com/static.obilet.com/images/partner/@item.PartnerId-sm.png" width="122" height="44">
+                            </td>
+                            <td style="text-align:right">
+                                <span style="font-size:10px">KALKIŞ</span> <br/> @item.Journey.Departure.ToString("HH:hh")
+                            </td>
+                            <td style="text-align:left">
+                                <span style="font-size:10px">VARIŞ</span> <br/> @item.Journey.Arrival.ToString("HH:hh")
+                            </td>
+                            <td style="text-align:left">
+                                <p style="font-weight:bold;">@item.BusType</p>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger">
+                                    <strong>@item.Journey.OriginalPrice @item.Journey.Currency</strong>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <p>@item.Journey.Origin <i class="fa-solid fa-arrow-right-long"></i> @item.Journey.Destination</p> 
+                                @item.Journey.Departure
+                               
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+</main>

@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "En Ucuz Otobüs Bileti Fiyatları, Online Otobüs Bileti Al - obilet.com";
+}
+@model OBilet.Dto.ViewModel.HomeViewModel
+
+
+
+<div class="px-4 py-5  text-center" style="background-image: url(https://s3.eu-central-1.amazonaws.com/static.obilet.com/images/page-banner/spring-background-2020.png);background-repeat:no-repeat">
+    <div class="col-lg-3 mx-auto">
+        <h6 style="color:white">Türkiye'nin En Büyük Otobüs Bileti Sitesi</h6>
+        <div class="card">
+            <div class="card-body">
+                @if (Model.Errors is null)
+                {
+                    <form asp-controller="Home" asp-action="Journeys" method="post">
+
+                        <div class="mb-3 row">
+                            <label>Kalkış Noktası</label>
+                            <select class="form-control" id="drpBusOrigin" name="OriginId" asp-for="OriginId" asp-items="@(new SelectList(Model.BusLocationList,"Id","Name"))"></select>
+                        </div>
+
+                        <i class="fa-solid fa-arrows-rotate" onclick="changeOriginAndDestination()" style="color:red;"></i>
+
+                        <div class="mb-3 row">
+                            <label>Varış Noktası</label>
+                            <select class="form-control" id="drpBusDestination" name="DestinationId" asp-for="DestinationId" asp-items="@(new SelectList(Model.BusLocationList,"Id","Name"))"></select>
+                        </div>
+
+                        <div class="mb-3 gap-2">
+                            <label>Yolculuk Tarihi</label>
+                            <input type="text" class="form-control" id="travelDate" name="DepartureDate" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-outline-dark btn-sm" onclick="setDateToday()">Bugün</button>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="setDateTomorrow()">Yarın</button>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-lg btn-danger">OTOBÜS BİLETİ BUL <i class="fa-solid fa-circle-chevron-right"></i></button>
+                        </div>
+                    </form>
+                }
+                else
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @Model.Errors
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+ <div class="col-lg-3 px-4 py-5  ">
+        <div class="card  shadow bg-white rounded">
+            <div class="card-body">
+                <h5>Obilet.com Assignment Project - Tech Detail</h5>
+                <ul>
+                    <li>Asp.net MVC Core (.net core 6)</li>
+                    <li>Microsoft Memory Cache</li>
+                    <li>HttpClient</li>
+                    <li>JavaScript</li>
+                    <li>Toastr Js</li>
+                    <li>Select2 Js</li>
+                    <li>Jquery(DateTimePicker)</li>
+                    <li>N-Layer Architecture</li>
+                    <li></li>
+                </ul>
+                <h6>Unit Test</h6>
+                <ul>
+
+                    <li>Xunit</li>
+                    <li>Moq Framework</li>
+                </ul>
+                <h6>Design Pattern</h6>
+                <ul>
+
+                    <li>Dependecy Reselvo/Injection</li>
+                    <li>Single Responsibility</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>

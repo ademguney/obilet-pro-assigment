@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c29e584-86c1-4c0f-b09c-7891e9174b8e": {
+      "ProjectGuid": "1c29e584-86c1-4c0f-b09c-7891e9174b8e",
+      "DisplayName": "OBilet.Business",
+      "ColorIndex": 0
+    },
+    "a20de942-6110-4009-9eea-474d572a3877": {
+      "ProjectGuid": "a20de942-6110-4009-9eea-474d572a3877",
+      "DisplayName": "OBilet.Business",
+      "ColorIndex": 1
+    },
+    "90829aad-5c1e-48a7-87df-b77453c9f847": {
+      "ProjectGuid": "90829aad-5c1e-48a7-87df-b77453c9f847",
+      "DisplayName": "OBilet.Core",
+      "ColorIndex": 2
+    },
+    "a2f0c0c3-7491-4948-9b4b-513b65f133d7": {
+      "ProjectGuid": "a2f0c0c3-7491-4948-9b4b-513b65f133d7",
+      "DisplayName": "OBilet.Web",
+      "ColorIndex": 3
+    },
+    "43929c34-d192-41ed-91f3-bef71845d6e4": {
+      "ProjectGuid": "43929c34-d192-41ed-91f3-bef71845d6e4",
+      "DisplayName": "OBilet.Service",
+      "ColorIndex": 4
+    },
+    "d333cfae-658f-4336-999a-3458b11ddef1": {
+      "ProjectGuid": "d333cfae-658f-4336-999a-3458b11ddef1",
+      "DisplayName": "OBilet.Dto",
+      "ColorIndex": 5
+    },
+    "b214688d-a2cb-441b-8b44-bc6072305197": {
+      "ProjectGuid": "b214688d-a2cb-441b-8b44-bc6072305197",
+      "DisplayName": "OBilet.Web",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "103dbc08-90f2-40d3-bfcb-fcadb5b20eea": {
+      "ProjectGuid": "103dbc08-90f2-40d3-bfcb-fcadb5b20eea",
+      "DisplayName": "OBilet.Web",
+      "ColorIndex": 7
+    },
+    "93d150e0-2535-40ca-a308-51f24022503d": {
+      "ProjectGuid": "93d150e0-2535-40ca-a308-51f24022503d",
+      "DisplayName": "OBilet.UnitTest",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

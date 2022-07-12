@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wXSaXW7FP7coooWalY2Cjl927WVzTIoskxJW8yrhkMKQvEjpeUQKQzcSjfEYE8hHlSKhCpf6NvoC5l0epyoW/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Guney\\Desktop\\rep\\obilet-pro-assigment\\OBilet\\src\\2-Libraries\\OBilet.Dto\\OBilet.Dto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guney\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
